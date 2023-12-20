@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/Mainstyle.css" />
+    <link rel="icon" href="css/flame.png" type="image/png" />
+
+    <title>FIRET</title>
+  </head>
+
+  <body>
+    <div class=""></div>
+    <!-- Navbar content -->
+
+    <div id="mainCarousel" class="carousel slide" data-interval="200">
+      <div class="carousel-inner">
+        <nav class="navbar z-3">
+          <div class="container-fluid">
+            <div class="col-3">
+              <a class="navbar-brand text-white" href="index.html">FIRET</a>
+            </div>
+            <div class="col-6" id="nolog">
+              <a id="home" class="mx-4 NavBarA"> Home </a>
+              <a id="about" class="mx-5 NavBarA"> About </a>
+              <a id="demo" class="mx-5 NavBarA"> Productos </a>
+              <a id="login" class="mx-5 NavBarA"> Login </a>
+            </div>
+            <div class="col-1">
+              <a class="" href="#!">
+                <i class="bi bi-cart"></i>
+              </a>
+
+              <a class="px-3" href="#!">
+                <i class="bi bi-person-circle"></i>
+              </a>
+
+              <a class="" href="#!">
+                <i class="bi bi-bar-chart"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col 6">
+              <div class="VideoContainer">
+                <img src="css/flame.png" class="flamaimg" alt="" />
+                <img src="css/flame.png" class="flama1img" alt="" />
+
+                <video muted loop autoplay>
+                  <source src="css/Fuego.mp4" type="video/mp4" />
+                </video>
+                <h1 class="text-center shadow-lg">
+                  F I R E T
+                  <span class="yuca">Los Precios Mas Picantes del Mercado</span>
+                  <button class="btn px-5" id="MainButton">Iniciar</button>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="container- my-5">
+            <footer class="footer text-white">
+              <div class="footer-top">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4 col-lg-4 footer-about wow fadeInUp">
+                      <p class="my-5">
+                        Somos una empresa joven que siempre busca ideas nuevas y
+                        creativas para ayudarle con nuestros productos en su
+                        trabajo diario.
+                      </p>
+                    </div>
+                    <div
+                      class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown"
+                    >
+                      <p class="my-3">Contacto</p>
+                      <p>
+                        <i class="bi bi-geo-alt mx-1"></i> C. César A. Canó 283,
+                        Santo Domingo
+                      </p>
+                      <p>
+                        <i class="bi bi-phone mx-1"></i> Phone: (809) 451 1001
+                      </p>
+                      <p>
+                        <i class="bi bi-envelope mx-1"></i> Email:
+                        FiretService@gmail.com
+                      </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 footer-social wow fadeInUp">
+                      <p class="my-4">Siguenos</p>
+
+                      <i class="bi bi-facebook mx-1"></i>
+                      <i class="bi bi-twitter mx-2"></i>
+                      <i class="bi bi-google mx-2"></i>
+                      <i class="bi bi-instagram mx-2"></i>
+                      <i class="bi bi-pinterest mx-2"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-bottom">
+                <div class="container">
+                  <div class="row">
+                    <div class="footer-copyright"></div>
+                    <div class="col-md-7 footer-menu">
+                      <nav class="navbar navbar-dark navbar-expand-md">
+                        <button
+                          class="navbar-toggler"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#navbarNav"
+                          aria-controls="navbarNav"
+                          aria-expanded="false"
+                          aria-label="Toggle navigation"
+                        >
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+
+            <!-- Footer -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row my-5 z-3 shadow-lg">
+              <div class="col-md-6 col-lg-4 column z-3">
+                <div class="card cards p-1 shadow-lg">
+                  <div class="txt">
+                    <h4 class="text-center">Mision</h4>
+                    <p class="text-center">
+                      LLegar a aquellas pequeñas empresas que le gustaria entrar
+                      al mundo digital con un servicio de calidad de acorde a su
+                      precio
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 column z-3">
+                <div class="card cards shadow-lg p-3">
+                  <div class="txt">
+                    <h4 class="text-center">Vision</h4>
+                    <p class="text-center">
+                      Que todos los negocios tanto pequeños como grandes esten
+                      en el area digital para un alcanze a todo el publico
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 column z-3">
+                <div class="cards card shadow-lg p-1">
+                  <div class="txt">
+                    <h4 class="text-center">Valores</h4>
+                    <p class="text-center">
+                      Innovación Constante, Compromiso con la Calidad, <br />
+                      Integridad Total
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="services-section shadow z-2">
+                <div class="inner-width">
+                  <h3 class="section-title">Nuestros Servicios</h3>
+                  <div class="border"></div>
+                  <div class="services-container">
+                    <div class="service-box">
+                      <div class="service-icon">
+                        <i class="bi bi-code"></i>
+                      </div>
+                      <div class="service-title">Web Development</div>
+                      <div class="service-desc">
+                        Te Ayudamos a Crear La Pagina Web De Tus Sueños
+                        Completamente Personalizada a Tus Medidas Y Gustos
+                      </div>
+                    </div>
+
+                    <div class="service-box">
+                      <div class="service-icon">
+                        <i class="bi bi-database"></i>
+                      </div>
+                      <div class="service-title">Databases</div>
+                      <div class="service-desc">
+                        Ofrecemos Un Servicio De Analizis De Datos Y Organizamos
+                        Tu Inventario De La Mejor Forma Posible
+                      </div>
+                    </div>
+
+                    <div class="service-box">
+                      <div class="service-icon">
+                        <i class="bi bi-cash-coin"></i>
+                      </div>
+                      <div class="service-title">Economia</div>
+                      <div class="service-desc">
+                        Impulsamos Tus Ventas Con Nuestro Sistema De Publicidad
+                        Y Estadisticas
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="css/flame.png" class="carousel_2_img z-0" alt="" />
+        </div>
+        <div class="carousel-item carousel_3">
+          <div class="container mt-5">
+            <div class="row z-0 pb-4">
+              <div class="col-md-2 mx-3">
+                <div class="card shadow-lg card-product">
+                  <img
+                    src="https://jumbo.com.do/pub/media/catalog/product/cache/e5145626c3f3275a7b4b1f65af9095fa/3/3/3340322-a.png"
+                    class="card-img-top"
+                    alt="Producto 1"
+                  />
+                  <div class="card-body text-white text-center">
+                    <h5 class="card-title">Nevera</h5>
+                    <p class="card-text">
+                      Nevera Oster 14 PC Inverter NFHME21400
+                    </p>
+                    <p class="precio">RD$35,995.00</p>
+                    <a href="#" class="btn btn-danger btn-block"
+                      >Contactar Productor</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mx-3">
+                <div class="card shadow-lg card-product">
+                  <img
+                    src="https://jumbo.com.do/pub/media/catalog/product/cache/e5145626c3f3275a7b4b1f65af9095fa/3/3/3332621-a.jpg"
+                    class="card-img-top"
+                    alt="Producto 1"
+                  />
+                  <div class="card-body text-white text-center">
+                    <h5 class="card-title">Aire Acondicionado</h5>
+                    <p class="card-text">
+                      Aire Acondicionado Samsung 18,000 BTU AR18BVHCMWK
+                    </p>
+                    <p class="precio">RD$58,995.00</p>
+                    <a href="#" class="btn btn-danger btn-block"
+                      >Contactar Productor</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mx-3">
+                <div class="card shadow-lg card-product">
+                  <img
+                    src="https://jumbo.com.do/pub/media/catalog/product/cache/e5145626c3f3275a7b4b1f65af9095fa/3/3/3340273-A_1.jpg"
+                    class="card-img-top"
+                    alt="Producto 1"
+                  />
+                  <div class="card-body text-white text-center">
+                    <h5 class="card-title">Nevera</h5>
+                    <p class="card-text">
+                      Nevera Oster 9 P.C. Negro Con Dispensador INOX 2902
+                    </p>
+                    <p class="precio">RD$25,995.00</p>
+                    <a href="#" class="btn btn-danger btn-block"
+                      >Contactar Productor</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mx-3">
+                <div class="card shadow-lg card-product">
+                  <img
+                    src="https://jumbo.com.do/pub/media/catalog/product/cache/e5145626c3f3275a7b4b1f65af9095fa/3/3/3332118-a.jpg"
+                    class="card-img-top"
+                    alt="Producto 1"
+                  />
+                  <div class="card-body text-white text-center">
+                    <h5 class="card-title">Lavadora</h5>
+                    <p class="card-text">
+                      Lavadora Frigidaire 22 Kg FWFX22D4EW
+                    </p>
+                    <p class="precio">RD$48,995.00</p>
+                    <a href="#" class="btn btn-danger btn-block"
+                      >Contactar Productor</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mx-3">
+                <div class="card shadow-lg card-product">
+                  <img
+                    src="https://jumbo.com.do/pub/media/catalog/product/cache/e5145626c3f3275a7b4b1f65af9095fa/3/3/3339076-b.png"
+                    class="card-img-top"
+                    alt="Producto 1"
+                  />
+                  <div class="card-body text-white text-center">
+                    <h5 class="card-title">Freidora</h5>
+                    <p class="card-text">
+                      Freidora HE 3.2 Litros Cobre HEAF-536C
+                    </p>
+                    <p class="precio">RD$4,995.00</p>
+                    <a href="#" class="btn btn-danger btn-block"
+                      >Contactar Productor</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row z-0 my-5">
+              <div class="col-md-2 mx-3">
+                <div class="card shadow-lg card-product">
+                  <img
+                    src="https://jumbo.com.do/pub/media/catalog/product/cache/e5145626c3f3275a7b4b1f65af9095fa/3/3/3338530-a.jpg"
+                    class="card-img-top"
+                    alt="Producto 1"
+                  />
+                  <div class="card-body text-white text-center">
+                    <h5 class="card-title">Televisor</h5>
+                    <p class="card-text">
+                      Televisor Samsung 65" OLED QN65S95CAPXPA
+                    </p>
+                    <p class="precio">RD$195,995.00</p>
+                    <a href="#" class="btn btn-danger btn-block"
+                      >Contactar Productor</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mx-3">
+                <div class="card shadow-lg card-product">
+                  <img
+                    src="https://jumbo.com.do/pub/media/catalog/product/cache/e5145626c3f3275a7b4b1f65af9095fa/3/3/3339528-A_1.png"
+                    class="card-img-top"
+                    alt="Producto 1"
+                  />
+                  <div class="card-body text-white text-center">
+                    <h5 class="card-title">Televisor</h5>
+                    <p class="card-text">
+                      Television Smart Danilux 43" Full HD DAN-43FHD
+                    </p>
+                    <p class="precio">RD$15,795.00</p>
+                    <a href="#" class="btn btn-danger btn-block"
+                      >Contactar Productor</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mx-3">
+                <div class="card shadow-lg card-product" id="card-product">
+                  <img
+                    src="https://jumbo.com.do/pub/media/catalog/product/cache/e5145626c3f3275a7b4b1f65af9095fa/3/3/3339050-A_1.jpg"
+                    class="card-img-top"
+                    alt="Producto 1"
+                  />
+                  <div class="card-body text-white text-center">
+                    <h5 class="card-title">Audifono</h5>
+                    <p class="card-text">Audífono Logitech Gaming G332 Negro</p>
+                    <p class="precio">RD$3,595.00</p>
+                    <a
+                      href="#"
+                      class="btn btn-danger btn-block"
+                      id="card-product"
+                      >Contactar Productor</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mx-3">
+                <div class="card shadow-lg card-product">
+                  <img
+                    src="https://jumbo.com.do/pub/media/catalog/product/cache/e5145626c3f3275a7b4b1f65af9095fa/3/3/3334191-a.jpg"
+                    class="card-img-top"
+                    alt="Producto 1"
+                  />
+                  <div class="card-body text-white text-center">
+                    <h5 class="card-title">Lavadora</h5>
+                    <p class="card-text">Lavadora Samsung 20 kg WF20T6000AW</p>
+                    <p class="precio">RD$48,995.00</p>
+                    <a href="#" class="btn btn-danger btn-block"
+                      >Contactar Productor</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 mx-3">
+                <div class="card shadow-lg card-product">
+                  <img
+                    src="https://jumbo.com.do/pub/media/catalog/product/cache/e5145626c3f3275a7b4b1f65af9095fa/3/3/3336476-a.jpg"
+                    class="card-img-top"
+                    alt="Producto 1"
+                  />
+                  <div class="card-body text-white text-center">
+                    <h5 class="card-title">Lavadora</h5>
+                    <p class="card-text">
+                      Lavadora Automática Whirlpool 7MWTW1904LM
+                    </p>
+                    <p class="precio">RD$39,895.00</p>
+                    <a href="#" class="btn btn-danger btn-block"
+                      >Contactar Productor</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Repite la estructura del producto para otros productos -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carousel_2">
+          <div class="container my-5 z-3">
+            <div class="row d-flex justify-content-around z-3">
+              <div class="z-3 contenedor" id="contenedor">
+                <div class="form-container sign-up">
+                  <form id="signupForm" class="needs-validation" novalidate>
+                    <h1>Crea una cuenta</h1>
+                    <div class="social-icons">
+                      <a href="#" class="icon"><i class="bi bi-google"></i></a>
+                      <a href="#" class="icon"
+                        ><i class="bi bi-facebook"></i
+                      ></a>
+                      <a href="#" class="icon"><i class="bi bi-github"></i></a>
+                      <a href="#" class="icon"
+                        ><i class="bi bi-linkedin"></i
+                      ></a>
+                    </div>
+                    <span>Ingresa tu Email</span>
+                    <div class="mb-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="signupEmail"
+                        placeholder="Email"
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Por favor Ingresa una direcion valida.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="signupPassword"
+                        placeholder="Password"
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Por favor ingresa una contraseña.
+                      </div>
+                    </div>
+                    <div id="signupResult" class="alert" role="alert"></div>
+                    <button
+                      class="btn btn-primary"
+                      onclick="validateSignupForm()"
+                    >
+                      Registrate
+                    </button>
+                  </form>
+                </div>
+                <!-- Agrega validación de Bootstrap a este formulario también -->
+                <div class="form-container sign-in">
+                  <form id="loginForm" class="needs-validation" novalidate>
+                    <h1>Log in</h1>
+                    <div class="social-icons">
+                      <a href="#" class="icon"><i class="bi bi-google"></i></a>
+                      <a href="#" class="icon"
+                        ><i class="bi bi-facebook"></i
+                      ></a>
+                      <a href="#" class="icon"><i class="bi bi-github"></i></a>
+                      <a href="#" class="icon"
+                        ><i class="bi bi-linkedin"></i
+                      ></a>
+                    </div>
+                    <span>Ingresa tu Email</span>
+                    <div class="mb-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="loginEmail"
+                        placeholder="Email"
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Por favor Ingresa una direccion valida.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="loginPassword"
+                        placeholder="Password"
+                        required
+                      />
+                      <div class="invalid-feedback">
+                        Ingresa Una Contraseña.
+                      </div>
+                    </div>
+
+                    <div
+                      id="loginResult"
+                      class="alert-dismissible fade show alert"
+                      role="alert"
+                    ></div>
+                    <button
+                      class="btn btn-primary"
+                      id="loginac"
+                    >
+                      Log In
+                    </button>
+                  </form>
+                </div>
+                <div class="toggle-container">
+                  <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                      <p>¿Ya Tienes Una Cuenta?</p>
+                      <p>Logeate Para Usar Nuestros Servicios</p>
+                      <button class="hidden" id="loginuser">Sign In</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                      <h1 class="text-white">¡Bienvenido!</h1>
+                      <p>¿ No Tienes Una Cuenta?</p>
+                      <p>Registrate Para Usar Nuestros Servicios</p>
+                      <button class="hidden" id="register">Registrate</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="css/flame.png" class="carousel_3_img z-0" alt="" />
+          <script>
+            const forms = document.querySelectorAll(".needs-validation");
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach((form) => {
+              form.addEventListener(
+                "submit",
+                (event) => {
+                  if (!form.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                  } else {
+                    event.preventDefault();
+                  }
+
+                  form.classList.add("was-validated");
+                },
+                false
+              );
+            });
+            async function validateSignupForm() {
+              const form = document.getElementById("signupForm");
+              const resultElement = document.getElementById("signupResult");
+
+              if (form.checkValidity()) {
+                const email = document.getElementById("signupEmail").value;
+                const password =
+                  document.getElementById("signupPassword").value;
+
+                try {
+                  // Realizar la solicitud al servidor para el registro
+                  const response = await fetch("http://localhost:3000/signup", {
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ email, password }),
+                  });
+
+                  const data = await response.json();
+
+                  // Mostrar el resultado de la operación en la página
+                  resultElement.innerHTML = `<div class="alert alert-${
+                    data.success ? "success" : "danger"
+                  }" role="alert">${data.mensaje}</div>`;
+                } catch (error) {
+                  console.error("Error al realizar la operación:", error);
+                  resultElement.innerHTML =
+                    '<div class="alert alert-danger" role="alert">Error al realizar la operación</div>';
+                }
+              }
+
+              // Agregar la clase para activar la validación de Bootstrap
+              form.classList.add("was-validated");
+            }
+
+            async function validateLoginForm() {
+              const form = document.getElementById("loginForm");
+              const resultElement = document.getElementById("loginResult");
+
+              if (form.checkValidity()) {
+                const email = document.getElementById("loginEmail").value;
+                const password = document.getElementById("loginPassword").value;
+
+                try {
+                  // Realizar la solicitud al servidor para el inicio de sesión
+                  const response = await fetch("http://localhost:3000/login", {
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ email, password }),
+                  });
+
+                  const data = await response.json();
+
+                  // Mostrar el resultado de la operación en la página
+                  resultElement.innerHTML = `<div class="alert alert-${
+                    data.success ? "success" : "danger"
+                  }" role="alert">${data.mensaje}</div>`;
+                } catch (error) {
+                  console.error("Error al realizar la operación:", error);
+                  resultElement.innerHTML =
+                    '<div class="alert alert-danger" role="alert">Error al realizar la operación</div>';
+                }
+              }
+
+              // Agregar la clase para activar la validación de Bootstrap
+              form.classList.add("was-validated");
+            }
+          </script>
+        </div>
+        <div class="carousel-item">
+          <section class="container-fluid">
+            <div class="Product-container flex">
+              <div class="left">
+                <div class="main_image">
+                  <img
+                    src="https://jumbo.com.do/pub/media/catalog/product/cache/e5145626c3f3275a7b4b1f65af9095fa/3/3/3339050-A_1.jpg"
+                    class="slide"
+                  />
+                </div>
+              </div>
+              <div class="right">
+                <h3>Audífono Logitech Gaming G332 Negro</h3>
+                <h4>RD$3,595.00</h4>
+                <p>
+                  Auriculares con cable para juegos, almohadillas giratorias de
+                  cuero sintético, conector de audio de 0.138 in, micrófono
+                  abatible para silenciar, ligero para PC, Xbox One, Xbox Series
+                </p>
+
+                <h5 class="grp text-center pt-3">Contactar Proveedor</h5>
+
+                <div
+                  class="btn-group pt-3"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio1"
+                    autocomplete="off"
+                    checked
+                    data-bs-toggle="collapse"
+                    href="#collapseExample"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  />
+                  <label class="btn btn-outline-danger" for="btnradio1"
+                    ><i class="bi bi-whatsapp"></i
+                  ></label>
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio2"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-outline-danger" for="btnradio2"
+                    ><i class="bi bi-facebook"></i
+                  ></label>
+
+                  <input
+                    type="radio"
+                    class="btn-check"
+                    name="btnradio"
+                    id="btnradio3"
+                    autocomplete="off"
+                  />
+                  <label class="btn btn-outline-danger" for="btnradio3"
+                    ><i class="bi bi-envelope-at"></i
+                  ></label>
+                </div>
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body text-center">
+                    +1 (809) 214 2041
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="carousel-item carousel_final carousel_3 ">
+          <div class="container mt-5 text-white shadow-lg">
+            <h2 class="mb-3 pt-3 text-center">Gestión de Productos</h2>
+
+            <form id="productForm" class="productForm">
+              <div class="row">
+                <div class="form-group col-5 ">
+                  <label for="productName" class="form-label"
+                    >Nombre del Producto:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="productName"
+                    required
+                  />
+                </div>
+                <div class="form-group col-5">
+                  <label for="productPrice" class="form-label">Precio del Producto:</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="productPrice"
+                    required
+                  />
+                </div>
+                
+                  <div class="form-group col-5 ">
+                    <label for="productDescription" class="form-label"
+                      >Descripción del Producto:</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="productDescription"
+                      required
+                    />
+                  </div>
+                  <div class="form-group col-5">
+                    <label for="formFile" class="form-label"
+                      >Subir Imagen del Producto</label
+                    >
+                    <input class="form-control" type="file" id="productImage" accept="image/*" />
+                  </div>
+                
+               
+                <button type="submit" class="btn btn-danger btn-sm mt-4">
+                  Agregar Producto
+                </button>
+              </div>
+            </form>
+
+            <hr />
+
+            <h3>Mis Productos Publicados</h3>
+            <div class="row" id="productList">
+              <!-- La lista de productos se mostrará aquí -->
+            </div>
+          </div>
+
+          <script>
+            // Manejo de productos con localStorage
+            document.addEventListener("DOMContentLoaded", function () {
+              const products =
+                JSON.parse(localStorage.getItem("products")) || [];
+
+              function renderProducts() {
+                const productListContainer =
+                  document.getElementById("productList");
+                productListContainer.innerHTML = "";
+
+                products.forEach(function (product, index) {
+                  const productCard = document.createElement("div");
+                  productCard.className = "col-md-2 mx-3 mb-3";
+
+                  productCard.innerHTML = `
+                            <div class="card shadow-lg card-product">
+                                <img src="${product.image}" class="card-img-top" alt="${product.name}" />
+                                <div class="card-body text-white text-center">
+                                    <h5 class="card-title">${product.name}</h5>
+                                    <p class="card-text">${product.description}</p>
+                                    <p class="precio">RD$${product.price}</p>
+                                    <a href="#" class="btn btn-danger btn-block">Contactar Productor</a>
+                                </div>
+                            </div>
+                        `;
+
+                  productListContainer.appendChild(productCard);
+                });
+              }
+
+              function addProduct(name, price, description, image) {
+                const newProduct = { name, price, description, image };
+                products.push(newProduct);
+                localStorage.setItem("products", JSON.stringify(products));
+                renderProducts();
+              }
+
+              window.deleteProduct = function (index) {
+                products.splice(index, 1);
+                localStorage.setItem("products", JSON.stringify(products));
+                renderProducts();
+              };
+
+              document
+                .getElementById("productForm")
+                .addEventListener("submit", function (event) {
+                  event.preventDefault();
+
+                  const productName =
+                    document.getElementById("productName").value;
+                  const productPrice =
+                    document.getElementById("productPrice").value;
+                  const productDescription =
+                    document.getElementById("productDescription").value;
+                  const productImageInput =
+                    document.getElementById("productImage");
+
+                  if (
+                    productName &&
+                    productPrice &&
+                    productImageInput.files.length > 0
+                  ) {
+                    const productImageFile = productImageInput.files[0];
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                      const base64Image = e.target.result;
+                      addProduct(
+                        productName,
+                        productPrice,
+                        productDescription,
+                        base64Image
+                      );
+                      document.getElementById("productForm").reset();
+                    };
+                    reader.readAsDataURL(productImageFile);
+                  } else {
+                    alert("Por favor, completa todos los campos obligatorios.");
+                  }
+                });
+
+              renderProducts();
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

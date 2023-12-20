@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Modern Login Page | AsmrProg</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registeration</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Forget Your Password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row d-flex justify-content-around">
+          <!-- Formulario de Sign Up -->
+          <div class="col-5 mt-5 z-3">
+            <form id="signupForm" class="needs-validation" novalidate>
+              <h1 class="h3 mb-3 fw-normal text-center">Sign up</h1>
+
+              <div class="form-floating my-2">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="signupEmail"
+                  placeholder="name@example.com"
+                  required
+                />
+                <label for="signupEmail">Email address</label>
+                <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
+              </div>
+              <div class="form-floating">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="signupPassword"
+                  placeholder="Password"
+                  required
+                />
+                <label for="signupPassword">Password</label>
+                <div class="invalid-feedback">Please enter a password.</div>
+              </div>
+
+              <button
+                class="btn btn-danger w-100 py-2 my-5"
+                type="button"
+                onclick="validateSignupForm()"
+              >
+                Sign up
+              </button>
+
+              <!-- Elemento para mostrar el resultado de la operación (alerta) -->
+              <div id="signupResult" class="alert" role="alert"></div>
+            </form>
+          </div>
+
+          <!-- Formulario de Log In -->
+          <div class="col-5 mt-5 z-3">
+            <form id="loginForm" class="needs-validation" novalidate>
+              <h1 class="h3 mb-3 fw-normal text-center">Log in</h1>
+
+              <div class="form-floating my-2">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="loginEmail"
+                  placeholder="name@example.com"
+                  required
+                />
+                <label for="loginEmail">Email address</label>
+                <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
+              </div>
+              <div class="form-floating">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="loginPassword"
+                  placeholder="Password"
+                  required
+                />
+                <label for="loginPassword">Password</label>
+                <div class="invalid-feedback">Please enter a password.</div>
+              </div>
+
+              <button
+                class="btn btn-danger w-100 py-2 my-5"
+                type="button"
+                onclick="validateLoginForm()"
+              >
+                Log in
+              </button>
+
+              <!-- Elemento para mostrar el resultado de la operación (alerta) -->
+              <div id="loginResult" class="alert" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
